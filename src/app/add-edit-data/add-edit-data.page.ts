@@ -65,6 +65,7 @@ export class AddEditDataPage implements OnInit {
       this.router.navigateByUrl('/home');
     })
   }
+  
 
   updateTransaction(){
     let data ={

@@ -11,7 +11,7 @@
                 {{transaction.title}}
                 <p [ngClass]="{expense:transaction.type == 'expense', income:transaction.type == 'income'}" >{{transaction.subTitle}}</p>
               </ion-label>
-              <p class="amount" [ngClass]="{expense:transaction.type == 'expense', income:transaction.type == 'income'}">{{transaction.amount}}</p>
+              <p class="amount" [ngClass]="{expense:transaction.type == 'expense', income:transaction.type == 'income'}">$ {{transaction.amount}}</p>
             </ion-item>
             <ion-item-options side="end">
               <ion-item-option color="danger">

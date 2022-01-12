@@ -13,7 +13,7 @@
         <ion-input  placeholder="Sub title" [(ngModel)]="subTitle"></ion-input>
         <ion-input  placeholder="Amount" type="number" [(ngModel)]="amount"></ion-input>
   
-        <ion-button color="dark" (click)="addTransaction()">{{isEdit ? 'Edit' : 'Add'}} &nbsp;<ion-spinner *ngIf="loading"></ion-spinner></ion-button>
+        <ion-button color="dark"  (click)="addTransaction()">{{isEdit ? 'Edit' : 'Add'}} &nbsp;<ion-spinner *ngIf="loading"></ion-spinner></ion-button>
       </div>
   </div>
   </ion-content>

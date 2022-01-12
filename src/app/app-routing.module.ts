@@ -12,7 +12,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'add-edit-data',
+    path: 'add-edit-data/:type',
     loadChildren: () => import('./add-edit-data/add-edit-data.module').then( m => m.AddEditDataPageModule)
   },
 ];
